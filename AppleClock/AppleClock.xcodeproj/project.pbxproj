@@ -15,6 +15,8 @@
 		83326C5B2B661D88007FCC6E /* WorldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83326C5A2B661D88007FCC6E /* WorldClockViewController.swift */; };
 		83326C5E2B662366007FCC6E /* WorldClockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83326C5D2B662366007FCC6E /* WorldClockTableViewCell.swift */; };
 		83326C612B66333E007FCC6E /* TimeZone+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83326C602B66333E007FCC6E /* TimeZone+Util.swift */; };
+		83326C632B6640F6007FCC6E /* CitySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83326C622B6640F6007FCC6E /* CitySelectionViewController.swift */; };
+		83326C652B66426C007FCC6E /* String+Hangeul.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83326C642B66426C007FCC6E /* String+Hangeul.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		83326C5A2B661D88007FCC6E /* WorldClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockViewController.swift; sourceTree = "<group>"; };
 		83326C5D2B662366007FCC6E /* WorldClockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockTableViewCell.swift; sourceTree = "<group>"; };
 		83326C602B66333E007FCC6E /* TimeZone+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeZone+Util.swift"; sourceTree = "<group>"; };
+		83326C622B6640F6007FCC6E /* CitySelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectionViewController.swift; sourceTree = "<group>"; };
+		83326C642B66426C007FCC6E /* String+Hangeul.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Hangeul.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 				83326C482B66155E007FCC6E /* SceneDelegate.swift */,
 				83326C4C2B66155E007FCC6E /* Main.storyboard */,
 				83326C5A2B661D88007FCC6E /* WorldClockViewController.swift */,
+				83326C622B6640F6007FCC6E /* CitySelectionViewController.swift */,
 				83326C4F2B661560007FCC6E /* Assets.xcassets */,
 				83326C512B661560007FCC6E /* LaunchScreen.storyboard */,
 				83326C542B661560007FCC6E /* Info.plist */,
@@ -85,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				83326C602B66333E007FCC6E /* TimeZone+Util.swift */,
+				83326C642B66426C007FCC6E /* String+Hangeul.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -163,7 +169,9 @@
 				83326C612B66333E007FCC6E /* TimeZone+Util.swift in Sources */,
 				83326C5B2B661D88007FCC6E /* WorldClockViewController.swift in Sources */,
 				83326C472B66155E007FCC6E /* AppDelegate.swift in Sources */,
+				83326C652B66426C007FCC6E /* String+Hangeul.swift in Sources */,
 				83326C492B66155E007FCC6E /* SceneDelegate.swift in Sources */,
+				83326C632B6640F6007FCC6E /* CitySelectionViewController.swift in Sources */,
 				83326C5E2B662366007FCC6E /* WorldClockTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
