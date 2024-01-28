@@ -13,6 +13,7 @@
 		83326C502B661560007FCC6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83326C4F2B661560007FCC6E /* Assets.xcassets */; };
 		83326C532B661560007FCC6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83326C512B661560007FCC6E /* LaunchScreen.storyboard */; };
 		83326C5B2B661D88007FCC6E /* WorldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83326C5A2B661D88007FCC6E /* WorldClockViewController.swift */; };
+		83326C5E2B662366007FCC6E /* WorldClockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83326C5D2B662366007FCC6E /* WorldClockTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		83326C522B661560007FCC6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83326C542B661560007FCC6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83326C5A2B661D88007FCC6E /* WorldClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockViewController.swift; sourceTree = "<group>"; };
+		83326C5D2B662366007FCC6E /* WorldClockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		83326C452B66155E007FCC6E /* AppleClock */ = {
 			isa = PBXGroup;
 			children = (
+				83326C5C2B66233F007FCC6E /* Cell */,
 				83326C462B66155E007FCC6E /* AppDelegate.swift */,
 				83326C482B66155E007FCC6E /* SceneDelegate.swift */,
 				83326C4C2B66155E007FCC6E /* Main.storyboard */,
@@ -65,6 +68,14 @@
 				83326C542B661560007FCC6E /* Info.plist */,
 			);
 			path = AppleClock;
+			sourceTree = "<group>";
+		};
+		83326C5C2B66233F007FCC6E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				83326C5D2B662366007FCC6E /* WorldClockTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				83326C5B2B661D88007FCC6E /* WorldClockViewController.swift in Sources */,
 				83326C472B66155E007FCC6E /* AppDelegate.swift in Sources */,
 				83326C492B66155E007FCC6E /* SceneDelegate.swift in Sources */,
+				83326C5E2B662366007FCC6E /* WorldClockTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
