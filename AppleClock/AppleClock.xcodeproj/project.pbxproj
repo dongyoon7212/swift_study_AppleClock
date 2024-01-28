@@ -12,6 +12,7 @@
 		83326C4E2B66155E007FCC6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83326C4C2B66155E007FCC6E /* Main.storyboard */; };
 		83326C502B661560007FCC6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83326C4F2B661560007FCC6E /* Assets.xcassets */; };
 		83326C532B661560007FCC6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83326C512B661560007FCC6E /* LaunchScreen.storyboard */; };
+		83326C5B2B661D88007FCC6E /* WorldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83326C5A2B661D88007FCC6E /* WorldClockViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		83326C4F2B661560007FCC6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83326C522B661560007FCC6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83326C542B661560007FCC6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83326C5A2B661D88007FCC6E /* WorldClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				83326C462B66155E007FCC6E /* AppDelegate.swift */,
 				83326C482B66155E007FCC6E /* SceneDelegate.swift */,
 				83326C4C2B66155E007FCC6E /* Main.storyboard */,
+				83326C5A2B661D88007FCC6E /* WorldClockViewController.swift */,
 				83326C4F2B661560007FCC6E /* Assets.xcassets */,
 				83326C512B661560007FCC6E /* LaunchScreen.storyboard */,
 				83326C542B661560007FCC6E /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83326C5B2B661D88007FCC6E /* WorldClockViewController.swift in Sources */,
 				83326C472B66155E007FCC6E /* AppDelegate.swift in Sources */,
 				83326C492B66155E007FCC6E /* SceneDelegate.swift in Sources */,
 			);
