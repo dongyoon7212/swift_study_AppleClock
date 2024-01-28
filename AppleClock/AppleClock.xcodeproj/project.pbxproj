@@ -14,6 +14,7 @@
 		83326C532B661560007FCC6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83326C512B661560007FCC6E /* LaunchScreen.storyboard */; };
 		83326C5B2B661D88007FCC6E /* WorldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83326C5A2B661D88007FCC6E /* WorldClockViewController.swift */; };
 		83326C5E2B662366007FCC6E /* WorldClockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83326C5D2B662366007FCC6E /* WorldClockTableViewCell.swift */; };
+		83326C612B66333E007FCC6E /* TimeZone+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83326C602B66333E007FCC6E /* TimeZone+Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		83326C542B661560007FCC6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83326C5A2B661D88007FCC6E /* WorldClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockViewController.swift; sourceTree = "<group>"; };
 		83326C5D2B662366007FCC6E /* WorldClockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockTableViewCell.swift; sourceTree = "<group>"; };
+		83326C602B66333E007FCC6E /* TimeZone+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeZone+Util.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		83326C452B66155E007FCC6E /* AppleClock */ = {
 			isa = PBXGroup;
 			children = (
+				83326C5F2B6632EE007FCC6E /* Extension */,
 				83326C5C2B66233F007FCC6E /* Cell */,
 				83326C462B66155E007FCC6E /* AppDelegate.swift */,
 				83326C482B66155E007FCC6E /* SceneDelegate.swift */,
@@ -76,6 +79,14 @@
 				83326C5D2B662366007FCC6E /* WorldClockTableViewCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		83326C5F2B6632EE007FCC6E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				83326C602B66333E007FCC6E /* TimeZone+Util.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83326C612B66333E007FCC6E /* TimeZone+Util.swift in Sources */,
 				83326C5B2B661D88007FCC6E /* WorldClockViewController.swift in Sources */,
 				83326C472B66155E007FCC6E /* AppDelegate.swift in Sources */,
 				83326C492B66155E007FCC6E /* SceneDelegate.swift in Sources */,
