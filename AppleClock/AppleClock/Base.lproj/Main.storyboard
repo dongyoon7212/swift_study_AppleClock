@@ -12,7 +12,6 @@
         <!--세계 시계-->
         <scene sceneID="RQv-Fm-TpR">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vMK-bQ-KX7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="IWh-de-Tsb" customClass="WorldClockViewController" customModule="AppleClock" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="I21-RT-43x">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
@@ -109,6 +108,7 @@
                         <outlet property="worldClockTableView" destination="AqN-8T-D44" id="6aB-vb-86e"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vMK-bQ-KX7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-498.47328244274809" y="650.70422535211276"/>
         </scene>
@@ -120,6 +120,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="검색 결과 없음" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5d-el-eAZ">
+                                <rect key="frame" x="148" y="410.66666666666669" width="97" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="W0c-1z-J6Q">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -152,7 +158,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="W0c-1z-J6Q" firstAttribute="bottom" secondItem="tA3-x0-1Ct" secondAttribute="bottom" id="1Py-yY-Y0T"/>
+                            <constraint firstItem="x5d-el-eAZ" firstAttribute="centerY" secondItem="JGY-TH-yJc" secondAttribute="centerY" id="Dlb-PE-pbO"/>
                             <constraint firstItem="W0c-1z-J6Q" firstAttribute="top" secondItem="JGY-TH-yJc" secondAttribute="top" id="E0V-SV-Aje"/>
+                            <constraint firstItem="x5d-el-eAZ" firstAttribute="centerX" secondItem="JGY-TH-yJc" secondAttribute="centerX" id="ctf-nS-32s"/>
                             <constraint firstItem="W0c-1z-J6Q" firstAttribute="trailing" secondItem="tA3-x0-1Ct" secondAttribute="trailing" id="q4z-SI-rYb"/>
                             <constraint firstItem="W0c-1z-J6Q" firstAttribute="leading" secondItem="tA3-x0-1Ct" secondAttribute="leading" id="zdf-W8-vyJ"/>
                         </constraints>
