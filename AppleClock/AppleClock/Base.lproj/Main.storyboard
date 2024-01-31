@@ -28,18 +28,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="159"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MlV-FE-UbQ">
-                                                    <rect key="frame" x="252" y="43.666666666666664" width="121" height="71.666666666666686"/>
-                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="60"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="오전" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCK-SX-cUM">
-                                                    <rect key="frame" x="192" y="68.333333333333329" width="59" height="40.666666666666671"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="0UA-XL-zGh">
                                                     <rect key="frame" x="20.000000000000007" y="59.333333333333343" width="88.666666666666686" height="46.666666666666657"/>
                                                     <subviews>
@@ -57,6 +45,18 @@
                                                         </label>
                                                     </subviews>
                                                 </stackView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MlV-FE-UbQ">
+                                                    <rect key="frame" x="252" y="43.666666666666664" width="121" height="71.666666666666686"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="60"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="오전" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCK-SX-cUM">
+                                                    <rect key="frame" x="192" y="68.333333333333329" width="59" height="40.666666666666671"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="HCK-SX-cUM" firstAttribute="baseline" secondItem="MlV-FE-UbQ" secondAttribute="baseline" id="0Ga-lc-tF0"/>
@@ -71,7 +71,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="spacingConstraint" destination="tKT-5T-YA9" id="E80-W0-DjR"/>
                                             <outlet property="timeLabel" destination="MlV-FE-UbQ" id="iOG-hS-fMg"/>
+                                            <outlet property="timeLabelTrailingConstraint" destination="KQd-r8-Ezw" id="rLl-r6-k5U"/>
                                             <outlet property="timeOffsetLabel" destination="IQv-bw-ebf" id="6nx-kN-Fsl"/>
                                             <outlet property="timePeriodLabel" destination="HCK-SX-cUM" id="B0R-RM-x9e"/>
                                             <outlet property="timeZoneLabel" destination="hXg-Jq-6qp" id="lZx-zC-KL1"/>
