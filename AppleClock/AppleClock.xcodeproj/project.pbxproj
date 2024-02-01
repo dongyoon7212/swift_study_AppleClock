@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8327898A2B6B7839007241E2 /* Date+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832789892B6B7839007241E2 /* Date+Util.swift */; };
 		83326C472B66155E007FCC6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83326C462B66155E007FCC6E /* AppDelegate.swift */; };
 		83326C492B66155E007FCC6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83326C482B66155E007FCC6E /* SceneDelegate.swift */; };
 		83326C4E2B66155E007FCC6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83326C4C2B66155E007FCC6E /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		832789892B6B7839007241E2 /* Date+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Util.swift"; sourceTree = "<group>"; };
 		83326C432B66155E007FCC6E /* AppleClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83326C462B66155E007FCC6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83326C482B66155E007FCC6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				83326C602B66333E007FCC6E /* TimeZone+Util.swift */,
 				83326C642B66426C007FCC6E /* String+Hangeul.swift */,
+				832789892B6B7839007241E2 /* Date+Util.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83326C612B66333E007FCC6E /* TimeZone+Util.swift in Sources */,
+				8327898A2B6B7839007241E2 /* Date+Util.swift in Sources */,
 				83326C5B2B661D88007FCC6E /* WorldClockViewController.swift in Sources */,
 				83326C472B66155E007FCC6E /* AppDelegate.swift in Sources */,
 				83326C652B66426C007FCC6E /* String+Hangeul.swift in Sources */,
